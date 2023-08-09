@@ -9,6 +9,37 @@ This features uses as interface gateway to sending Email or whatsapp (Not Tested
   - Using Internal thirdparty vendor
   - still implemented
 
+## API Specs
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/arifonta/messaging
+```
+
+Update setting in .env file
+
+
+Go to the project directory
+
+```bash
+  cd my-project
+```
+
+Install dependencies
+
+```bash
+  go mod tidy
+```
+
+Start the server
+
+```bash
+  go run cmd/grpc/server.go
+```
+
 ## Environtment Variable
 
 ```env
